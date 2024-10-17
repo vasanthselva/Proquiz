@@ -3,7 +3,6 @@ import '../styles/quiz.scss';
 import Question from './Question';
 import QuestionsNotFound from './QuestionsNotFound';
 import Score from './Score';
-import Status from './Status';
 
 function Quiz() {
   const { state } = useApp();
@@ -17,12 +16,10 @@ function Quiz() {
     <>
       {currentQuestionIndex < questions.length ? (
         <>
-          <Status />
           <Question />
         </>
       ) : (
         <>
-          <Status />
           <Score />
         </>
       )}
