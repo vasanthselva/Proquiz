@@ -426,7 +426,7 @@ while True:
 c: [ {
   question: 'The standard header _______ is used for variable list arguments (…) in C.',
   options: ['<stdio.h>','<stdlib.h>','<math.h>','<stdarg.h>'],
-  answer: '3'
+  answer: 3,
 },
 {
   question: 'Which of the following return-type cannot be used for a function in C?',
@@ -436,7 +436,7 @@ c: [ {
     'void',
     'none of the mentioned'
   ],
-  answer: '3',
+  answer: 3,
 },
 {
   question: 'Which of the following is not possible statically in C language?',
@@ -446,7 +446,7 @@ c: [ {
     'Cuboidal Array',
     'Multidimensional Array'
   ],
-  answer: '0',
+  answer: 0,
 },
 {
   question: 'How many number of pointer (*) does C have against a pointer variable declaration?',
@@ -456,7 +456,7 @@ c: [ {
     '255',
     'No limits'
   ],
-  answer: '3',
+  answer: 3,
 },
 {
   question: 'The C-preprocessors are specified with _________ symbol.',
@@ -466,7 +466,7 @@ c: [ {
     '” ”',
     '&'
   ],
-  answer: '0',
+  answer: 0,
 },
 {
   question: 'Which of the following are C preprocessors?',
@@ -476,7 +476,7 @@ c: [ {
     '#endif',
     'all of the mentioned'
   ],
-  answer: '3',
+  answer: 3,
 },
 {
   question: 'C preprocessors can have compiler specific features.',
@@ -486,7 +486,7 @@ c: [ {
     'Depends on the standard',
     'Depends on the platform'
   ],
-  answer: '0',
+  answer: 0,
 },
 {
   question: 'What is #include <stdio.h>?',
@@ -496,7 +496,7 @@ c: [ {
     'File inclusion directive',
     'None of the mentioned'
   ],
-  answer: '0',
+  answer: 0,
 },
 {
   question: 'Property which allows to produce different executable for different platforms in C is called?',
@@ -506,7 +506,7 @@ c: [ {
     'Conditional compilation',
     'Recursive macros'
   ],
-  answer: '2',
+  answer: 2,
 },
 {
   question: 'Functions in C Language are always _________',
@@ -516,7 +516,7 @@ c: [ {
     'Both Internal and External',
     'External and Internal are not valid terms for functions'
   ],
-  answer: '1',
+  answer: 1,
 },
 {
   question: 'Functions can return enumeration constants in C?',
@@ -526,7 +526,7 @@ c: [ {
     'depends on the compiler',
     'depends on the standard'
   ],
-  answer: '0',
+  answer: 0,
 },
 {
   question: 'What is an example of iteration in C?',
@@ -536,7 +536,7 @@ c: [ {
     'do-while',
     'all of the mentioned'
   ],
-  answer: '3',
+  answer: 3,
 },
 {
   question: 'Which of the following typecasting is accepted by C language?',
@@ -546,12 +546,12 @@ c: [ {
     'Widening & Narrowing conversions',
     'None of the mentioned'
   ],
-  answer: '2',
+  answer: 2,
 },
 {
   question: 'Which keyword is used to prevent any changes in the variable within a C program?',
   options: ['immutable', 'mutable', 'const', 'volatile'],
-  answer: '2',
+  answer: 2,
 },
 {
   question: 'Which of the following declaration is not supported by C language?',
@@ -561,7 +561,7 @@ c: [ {
     'float str = 3e2;', 
     'Both “String str;” and “float str = 3e2;”'
   ],
-  answer:'0',
+  answer: 0,
 },
 {
   question: 'What is short int in C programming?',
@@ -571,12 +571,12 @@ c: [ {
     'Short is the qualifier and int is the basic data type',
     'All of the mentioned'
   ],
-  answer:'2',
+  answer: 2,
 },
 {
   question: 'Which of the following cannot be a variable name in C?',
   options: ['volatile', 'true', 'friend', 'export'],
-  answer:'0',
+  answer: 0,
 },
 {
   question: 'Which is a valid C expression?',
@@ -586,17 +586,17 @@ c: [ {
     'int my num = 1000;', 
     'int $my_num = 10000;'
   ],
-  answer:'1',
+  answer: 1,
 },
 {
   question: 'All keywords in C are in ____________',
   options: ['LowerCase letters', 'UpperCase letters', 'CamelCase letters', 'None of the mentioned'],
-  answer:'0',
+  answer: 0,
 },
 {
   question: 'Which of the following is not a valid C variable name?',
   options: ['int number', 'float rate', 'int variable_count', 'int $main'],
-  answer:'3',
+  answer: 3,
 },],
 /*java mcq */
   java: [ 
@@ -608,7 +608,7 @@ c: [ {
         'JDK',
         'JVM'
       ],
-      answer: '3',
+      answer: 3,
     },
     {
       question: 'Which one of the following is not a Java feature?',
@@ -618,7 +618,7 @@ c: [ {
         'Portable',
         'Dynamic and Extensible'
       ],
-      answer: '1',
+      answer: 1,
     },
     {
       question: 'Which of these cannot be used for a variable name in Java?',
@@ -628,7 +628,7 @@ c: [ {
         'keyword',
         'none of the mentioned'
       ],
-      answer: '2',
+      answer: 2,
     },
     {
       question: 'Which environment variable is used to set the java path?',
@@ -638,7 +638,7 @@ c: [ {
         'JAVA',
         'JAVA_HOME'
       ],
-      answer: '3',
+      answer: 3,
     },
     {
       question: 'Which of the following is not an OOPS concept in Java?',
@@ -648,7 +648,7 @@ c: [ {
         'Compilation',
         'Encapsulation'
       ],
-      answer: '2',
+      answer: 2,
     },
     {
       question: 'Which of the following is a type of polymorphism in Java Programming?',
@@ -658,7 +658,7 @@ c: [ {
         'Multilevel polymorphism',
         'Execution time polymorphism'
       ],
-      answer: '1',
+      answer: 1,
     },
     {
       question: 'What is Truncation in Java?',
@@ -668,7 +668,7 @@ c: [ {
         'Integer value assigned to floating type',
         'Integer value assigned to floating type'
       ],
-      answer: '1',
+      answer: 1,
     },
     {
       question: 'Which exception is thrown when java is out of memory?',
@@ -678,7 +678,7 @@ c: [ {
         'MemoryOutOfBoundsException',
         'MemoryFullException'
       ],
-      answer: '1',
+      answer: 1,
     },
     {
       question: 'Which of these are selection statements in Java?',
@@ -688,7 +688,7 @@ c: [ {
         'for()',
         'if()'
       ],
-      answer: '3',
+      answer: 3,
     },
     {
       question: 'Which of these keywords is used to define interfaces in Java?',
@@ -698,7 +698,7 @@ c: [ {
         'interface',
         'Interface'
       ],
-      answer: '2',
+      answer: 2,
     },
     {
       question: 'Which of the following is a superclass of every class in Java?',
@@ -708,7 +708,7 @@ c: [ {
         'Object class',
         'String'
       ],
-      answer: '2',
+      answer: 2,
     },
     {
       question: 'Which of the below is not a Java Profiler?',
@@ -718,7 +718,7 @@ c: [ {
         'JVM',
         'JConsole'
       ],
-      answer: '2',
+      answer: 2,
     },
     {
       question: 'Which of these packages contains the exception Stack Overflow in Java?',
@@ -728,7 +728,7 @@ c: [ {
         'java.lang',
         'java.util'
       ],
-      answer: '2',
+      answer: 2,
     },
     {
       question: 'Which of these keywords are used for the block to be examined for exceptions?',
@@ -738,7 +738,7 @@ c: [ {
         'catch',
         'try'
       ],
-      answer: '3',
+      answer: 3,
     },
     {
       question: 'Which one of the following is not an access modifier?',
@@ -748,7 +748,7 @@ c: [ {
         'Public',
         'Private'
       ],
-      answer: '1',
+      answer: 1,
     },
     {
       question: 'What is the numerical range of a char data type in Java?',
@@ -758,7 +758,7 @@ c: [ {
         '0 to 65535',
         '0 to 32767'
       ],
-      answer: '2',
+      answer: 2,
     },
     {
       question: 'Which class provides system independent server side implementation?',
@@ -768,7 +768,7 @@ c: [ {
         'Socket',
         'ServerSocket'
       ],
-      answer: '3',
+      answer: 3,
     },
     {
       question: 'Number of primitive data types in Java are?',
@@ -778,7 +778,7 @@ c: [ {
         '8',
         '9'
       ],
-      answer: '2',
+      answer: 2,
     },
     {
       question: 'What is the size of float and double in java?',
@@ -788,7 +788,7 @@ c: [ {
         '64 and 64',
         '64 and 32'
       ],
-      answer: '0',
+      answer: 0,
     },
     {
       question: 'Find the output of the following code.\n\nint Integer = 24;\nchar String  = \'I\';\nSystem.out.print(Integer);\nSystem.out.print(String);',
@@ -798,7 +798,7 @@ c: [ {
         'I',
         '24 I'
       ],
-      answer: '0',
+      answer: 0,
     },
     {
       question: 'Find the output of the following program.\n\npublic class Solution{\n       public static void main(String[] args){\n                     short x = 10;\n                     x =  x * 5;\n                     System.out.print(x);\n       }\n}',
@@ -808,7 +808,7 @@ c: [ {
         'Compile error',
         'Exception'
       ],
-      answer: '2',
+      answer: 2,
     },
     {
       question: 'Select the valid statement.',
@@ -818,7 +818,7 @@ c: [ {
         'char[] ch = new char()',
         'char[] ch = new char[]'
       ],
-      answer: '1',
+      answer: 1,
     },
     {
       question: 'When an array is passed to a method, what does the method receive?',
@@ -828,7 +828,7 @@ c: [ {
         'Length of the array',
         'Copy of first element'
       ],
-      answer: '0',
+      answer: 0,
     },
     {
       question: 'Find the value of A[1] after execution of the following program.\n\nint[] A = {0,2,4,1,3};\nfor(int i = 0; i < A.length; i++){\nA[i] = A[(A[i] + 3) % A.length];\n}',
@@ -838,7 +838,7 @@ c: [ {
         '2',
         '3'
       ],
-      answer: '1',
+      answer: 1,
     },
     {
       question: 'When is the object created with new keyword?',
@@ -848,7 +848,7 @@ c: [ {
         'Depends on the code',
         'None'
       ],
-      answer: '0',
+      answer: 0,
     },
 
 
